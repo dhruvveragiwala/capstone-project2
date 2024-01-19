@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+body{
+    background: linear-gradient(300deg, #80BCBD, #AAD9BB, #D5F0C1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.name{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lead{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 50px;
+}
+
+.mainimg{
+    border-radius: 10%;
+    height: 100vh;
+}
+
+#second-page{
+    margin-top: 40px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+a{
+    color: inherit
+}
